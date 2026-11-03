@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#10152f">
+<meta name="description" content="MIRIA公式サイト。夢の可能性は、無限大。アイドルとクリエイターの可能性を広げるプロジェクト。">
+<title>MIRIA | 夢の可能性は、無限大。</title>
+<style>
+:root{--bg:#0b1025;--panel:#151d3b;--panel2:#1c2850;--cyan:#8cecff;--blue:#8daeff;--violet:#c6a5ff;--white:#f4f7ff;--muted:#b9c5e8;--line:rgba(180,205,255,.2);--glow:0 0 35px rgba(105,196,255,.18)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:88px}body{margin:0;background:radial-gradient(ellipse at 12% 8%,rgba(68,132,220,.2),transparent 32%),radial-gradient(ellipse at 88% 25%,rgba(143,91,220,.18),transparent 35%),var(--bg);color:var(--white);font-family:system-ui,-apple-system,"Noto Sans JP",sans-serif;line-height:1.8}a{color:inherit;text-decoration:none}button{font:inherit}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}.topbar{position:sticky;top:0;z-index:10;background:rgba(10,15,36,.84);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}.nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-size:1.55rem;font-weight:900;letter-spacing:.18em;color:var(--cyan);text-shadow:0 0 18px #55caff66}.navlinks{display:flex;gap:18px;align-items:center;flex-wrap:wrap;font-size:.84rem;color:var(--muted)}.navlinks a:hover{color:var(--cyan)}.menu{display:none;background:none;border:1px solid var(--line);color:white;border-radius:10px;padding:7px 11px}.hero{min-height:650px;display:grid;place-items:center;text-align:center;position:relative;overflow:hidden;padding:90px 0 110px}.hero:before,.hero:after{content:"";position:absolute;border:1px solid rgba(147,218,255,.22);border-radius:50%;width:560px;height:560px;box-shadow:0 0 70px rgba(100,183,255,.08),inset 0 0 70px rgba(150,125,255,.08);transform:rotate(-24deg)}.hero:after{width:760px;height:310px;transform:rotate(28deg);border-color:rgba(194,157,255,.2)}.orb{position:absolute;width:9px;height:9px;border-radius:50%;background:var(--cyan);box-shadow:0 0 24px 8px #65dfff88}.o1{top:20%;left:17%}.o2{top:68%;right:18%;background:var(--violet)}.o3{top:28%;right:24%;width:5px;height:5px}.hero-inner{position:relative;z-index:1}.eyebrow{letter-spacing:.32em;color:var(--cyan);font-size:.78rem;font-weight:700}.hero h1{font-size:clamp(4rem,13vw,8.5rem);line-height:1;margin:20px 0 12px;letter-spacing:.18em;background:linear-gradient(100deg,#a3f4ff,#b4c6ff 48%,#d7b4ff);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 25px #83caff44)}.tagline{font-size:clamp(1.15rem,3vw,1.7rem);letter-spacing:.14em}.lead{color:var(--muted);max-width:650px;margin:24px auto 32px}.actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 24px;border-radius:999px;border:1px solid #a6dfff88;background:linear-gradient(100deg,#5acbe833,#a58aff33);box-shadow:var(--glow);font-weight:700}.btn.primary{background:linear-gradient(100deg,#65dff0,#9b9bff);color:#10152f;border:0}.section{padding:82px 0}.section.alt{background:linear-gradient(110deg,rgba(73,133,207,.08),rgba(155,111,220,.08));border-block:1px solid var(--line)}.kicker{color:var(--cyan);letter-spacing:.24em;font-size:.75rem;font-weight:800}.heading{font-size:clamp(1.8rem,5vw,2.65rem);margin:5px 0 14px;line-height:1.35}.intro{color:var(--muted);max-width:720px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px}.card{padding:24px;border:1px solid var(--line);border-radius:20px;background:linear-gradient(145deg,rgba(28,40,80,.9),rgba(18,25,53,.8));box-shadow:var(--glow)}.card h3{margin:0 0 8px;color:#dceaff}.card p{margin:0;color:var(--muted);font-size:.94rem}.symbol{font-size:1.7rem;color:var(--cyan);margin-bottom:12px}.pill{display:inline-block;border:1px solid #a6dfff66;border-radius:999px;padding:3px 10px;color:var(--cyan);font-size:.72rem;margin-bottom:12px}.group-name{font-size:1.4rem;font-weight:850;letter-spacing:.06em}.notice{border-left:3px solid var(--violet);padding:12px 16px;background:#b99aff12;color:var(--muted);border-radius:0 12px 12px 0;margin-top:22px}.steps{counter-reset:step;display:grid;gap:12px;margin-top:25px}.step{counter-increment:step;display:flex;gap:16px;align-items:flex-start;padding:17px;border-bottom:1px solid var(--line)}.step:before{content:counter(step,decimal-leading-zero);color:var(--cyan);font-weight:900;letter-spacing:.1em}.news-item{display:grid;grid-template-columns:120px 1fr;gap:20px;padding:18px 0;border-bottom:1px solid var(--line)}.date{color:var(--cyan);font-size:.85rem}.news-item p{margin:3px 0 0;color:var(--muted)}.rules{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:26px}.rule{padding:18px;border:1px solid var(--line);border-radius:16px;background:#17204499}.rule b{display:block;color:#dceaff;margin-bottom:5px}.rule span{color:var(--muted);font-size:.92rem}.contact-box{padding:30px;border:1px solid #a6dfff55;border-radius:22px;background:linear-gradient(120deg,#5acbe81a,#a58aff1c);margin-top:28px}.contact-box p{color:var(--muted)}.small{font-size:.82rem;color:var(--muted)}footer{padding:35px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.82rem}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.foot strong{color:var(--cyan);letter-spacing:.2em}.toplink{color:var(--cyan)}:focus-visible{outline:3px solid var(--cyan);outline-offset:4px}
+@media(max-width:800px){.nav{align-items:flex-start;padding:16px 0}.menu{display:block}.navlinks{display:none;position:absolute;top:70px;left:0;right:0;background:#101832;padding:18px 24px 22px;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start}.navlinks.open{display:flex}.grid{grid-template-columns:1fr 1fr}.hero{min-height:570px}.hero:before{width:390px;height:390px}.hero:after{width:500px;height:230px}}@media(max-width:560px){.wrap{width:min(100% - 30px,1120px)}.grid,.rules{grid-template-columns:1fr}.section{padding:64px 0}.news-item{grid-template-columns:1fr;gap:4px}.hero{min-height:540px}.card{padding:20px}}
+</style>
+</head>
+<body>
+<header class="topbar"><div class="wrap nav">
+<a class="brand" href="#home" aria-label="MIRIA トップ">MIRIA</a>
+<button class="menu" id="menuBtn" aria-expanded="false" aria-controls="navlinks">MENU</button>
+<nav class="navlinks" id="navlinks" aria-label="メインメニュー">
+<a href="#about">ABOUT</a><a href="#future">FUTURE</a><a href="#recruit">RECRUIT</a><a href="#news">NEWS</a><a href="#policy">POLICY</a><a href="#contact">CONTACT</a>
+</nav></div></header>
+<main>
+<section class="hero" id="home"><span class="orb o1"></span><span class="orb o2"></span><span class="orb o3"></span><div class="hero-inner wrap">
+<div class="eyebrow">DREAMS · IDOLS · CREATORS</div><h1>MIRIA</h1><div class="tagline">夢の可能性は、無限大。</div>
+<p class="lead">2.5次元アイドル事務所・プロジェクト。<br>一人ひとりの「やってみたい」を大切に、アイドルとクリエイターの可能性を広げます。</p>
+<div class="actions"><a class="btn primary" href="#about">MIRIAについて</a><a class="btn" href="#recruit">仲間になる</a></div>
+</div></section>
+<section class="section" id="about"><div class="wrap">
+<div class="kicker">ABOUT MIRIA</div><h2 class="heading">夢に、境界線はいらない。</h2>
+<p class="intro">MIRIAは、キャラクターやビジュアル、歌・声・映像などを組み合わせた「2.5次元アイドル」の活動を中心とするアイドル事務所・プロジェクトです。アイドル活動やクリエイティブ活動を通して、一人ひとりの夢や個性が輝く場所を目指します。経験の有無だけで可能性を決めず、互いを尊重しながら、それぞれのペースで挑戦できる環境づくりを大切にします。</p>
+<div class="grid">
+<article class="card"><div class="symbol">✧</div><h3>個性を大切に</h3><p>それぞれの得意なこと、好きなこと、表現したい世界観を尊重します。</p></article>
+<article class="card"><div class="symbol">◇</div><h3>挑戦を応援</h3><p>小さな一歩も大切な前進。未経験からの挑戦も歓迎する方針です。</p></article>
+<article class="card"><div class="symbol">∞</div><h3>可能性を広げる</h3><p>アイドルも、イラストも、映像も。さまざまな才能がつながる未来を目指します。</p></article>
+</div></div></section>
+<section class="section alt" id="future"><div class="wrap">
+<div class="kicker">OUR FUTURE</div><h2 class="heading">これから広がるMIRIAの世界。</h2>
+<p class="intro">現在、MIRIA所属として正式に活動しているアイドルグループはありません。これから仲間を迎え、コンセプトづくりや準備を進めながら、一つひとつのグループを大切に立ち上げていきます。</p>
+<div class="grid">
+<article class="card"><div class="symbol">✧</div><h3>2.5次元アイドル</h3><p>キャラクターやビジュアルを通して、歌・声・映像などで世界観を届ける活動を目指します。</p></article>
+<article class="card"><div class="symbol">◇</div><h3>多彩な世界観</h3><p>王道かわいい、ゆめかわ、近未来など、ジャンルにとらわれない表現を大切にします。</p></article>
+<article class="card"><div class="symbol">∞</div><h3>仲間と一緒に創る</h3><p>メンバーやクリエイターのアイデアを取り入れながら、グループや作品を育てていきます。</p></article>
+</div>
+<div class="notice">※グループは現在準備段階です。正式な所属グループや活動内容が決まり次第、このページでお知らせします。</div>
+</div></section>
+<section class="section" id="recruit"><div class="wrap">
+<div class="kicker">JOIN MIRIA</div><h2 class="heading">一緒に夢をつくる仲間を募集。</h2>
+<p class="intro">MIRIAでは、アイドルメンバーとクリエイターを募集する予定です。募集状況・条件・応募方法は、必ず最新の公式告知をご確認ください。</p>
+<div class="grid">
+<article class="card"><div class="symbol">♫</div><h3>アイドルメンバー</h3><p>歌や表現に挑戦したい方、自分らしい活動を目指したい方。</p></article>
+<article class="card"><div class="symbol">✎</div><h3>イラストレーター</h3><p>キャラクターやビジュアルづくりが好きな方。</p></article>
+<article class="card"><div class="symbol">▣</div><h3>動画クリエイター</h3><p>MV、歌詞動画、ショート動画などの映像制作に興味がある方。</p></article>
+<article class="card"><div class="symbol">✦</div><h3>運営スタッフ</h3><p>企画立案、広報、進行管理など、MIRIAの運営を一緒に支えてくれる方。</p></article>
+<article class="card"><div class="symbol">♢</div><h3>マネージャー</h3><p>メンバーの活動サポートやスケジュール調整、連絡・相談対応などに関心のある方。</p></article>
+</div>
+<div class="steps">
+<div class="step"><div><b>募集内容を確認</b><div class="small">年齢条件、活動内容、必要なスキル、報酬・費用の有無などを確認します。</div></div></div>
+<div class="step"><div><b>活動内容・条件を確認</b><div class="small">応募時点で保護者の同意は必須ではありません。ただし、未成年の方が参加する場合、活動内容・費用・契約などに応じて、法令上必要な同意や保護者への確認をお願いすることがあります。</div></div></div>
+<div class="step"><div><b>運営から案内</b><div class="small">選考や参加方法、活動ルールについて、内容を確認してから判断できます。</div></div></div>
+</div>
+<div class="notice">応募フォーム・募集条件は現在の運営状況に合わせて公開してください。サイト上で個人情報や未成年者の連絡先を不用意に集めない設計を推奨します。</div>
+</div></section>
+<section class="section alt" id="news"><div class="wrap">
+<div class="kicker">LATEST INFORMATION</div><h2 class="heading">NEWS & INFORMATION</h2>
+<div class="news-item"><div class="date">2026.11.03</div><div><b>MIRIA公式サイト 制作開始</b><p>プロジェクトの情報をまとめる公式サイトを準備しています。</p></div></div>
+<div class="news-item"><div class="date">随時更新</div><div><b>メンバー・クリエイター募集について</b><p>募集状況や応募条件は、公式のお知らせでご案内します。</p></div></div>
+<p class="small">※日付・内容は公開前に必ず確認し、実際のお知らせに合わせて更新してください。</p>
+</div></section>
+<section class="section" id="policy"><div class="wrap">
+<div class="kicker">SAFETY & GUIDELINES</div><h2 class="heading">活動規約・安全方針</h2>
+<p class="intro">安心して活動できる環境を目指し、MIRIAは次の方針を大切にします。正式な参加規約・契約が必要な活動では、個別の書面で条件を確認します。</p>
+<div class="rules">
+<div class="rule"><b>1. 未成年者の活動について</b><span>応募時点で保護者の同意は必須ではありません。ただし、活動内容や契約・費用などにより、法令上必要な同意や保護者への確認をお願いする場合があります。</span></div>
+<div class="rule"><b>2. 個人情報を守る</b><span>本名、住所、学校、電話番号、位置情報などを公開・共有しないよう徹底します。</span></div>
+<div class="rule"><b>3. 安全なコミュニケーション</b><span>不安やトラブルがあれば活動を止め、保護者と運営に相談できる環境を整えます。</span></div>
+<div class="rule"><b>4. 費用・作業条件の明確化</b><span>参加費、制作費、報酬、作業量、納期、クレジット表記などを事前に説明します。</span></div>
+<div class="rule"><b>5. 権利と許可を確認</b><span>イラスト、音源、伴奏、映像、ロゴなどは利用許諾や権利関係を確認して使用します。</span></div>
+<div class="rule"><b>6. 無理のない活動</b><span>学業や生活を優先し、体調や都合に合わせて活動量を相談できます。</span></div>
+</div>
+<div class="notice">このページは基本方針の案内です。正式な規約・契約書の代わりではありません。未成年者の活動では、年齢や活動内容、契約・費用の有無に応じて必要な手続きを確認し、安全に参加できる体制を整えます。</div>
+</div></section>
+<section class="section alt" id="contact"><div class="wrap">
+<div class="kicker">CONTACT</div><h2 class="heading">お問い合わせ</h2>
+<p class="intro">MIRIAへのお問い合わせ窓口は、公式SNSなどで案内する予定です。公開前に、運営が安全に確認・返信できる連絡先を設定してください。</p>
+<div class="contact-box">
+<h3>お問い合わせ窓口</h3>
+<p>現在、連絡先を設定中です。準備が整うまでは、個人アカウントへのDMや個人情報の送信を控えてください。</p>
+<p class="small">公開前チェック：専用メールアドレスまたは管理可能な公式窓口を用意し、未成年者の応募・問い合わせを安全に扱える運用体制を整えてください。</p>
+</div>
+</div></section>
+</main>
+<footer><div class="wrap foot"><div><strong>MIRIA</strong><div>夢の可能性は、無限大。</div></div><div>© 2026 MIRIA PROJECT<br><a class="toplink" href="#home">ページ上部へ ↑</a></div></div></footer>
+<script>
+const btn=document.getElementById('menuBtn'),nav=document.getElementById('navlinks');
+btn.addEventListener('click',()=>{const open=nav.classList.toggle('open');btn.setAttribute('aria-expanded',String(open));});
+nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');btn.setAttribute('aria-expanded','false');}));
+</script>
+</body></html>
